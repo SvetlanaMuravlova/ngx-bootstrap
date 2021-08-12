@@ -46,25 +46,24 @@ export const ngdoc: any = {
     "methods": []
   },
   "AccordionComponent": {
-    "fileName": "src/accordion/accordion.component.ts",
+    "fileName": "src/stories/accordion.component.ts",
     "className": "AccordionComponent",
-    "description": "<p>Displays collapsible content panels for presenting information in a limited amount of space.</p>\n",
-    "selector": "accordion",
+    "description": "",
+    "selector": "storybook-button",
     "inputs": [
       {
         "name": "closeOthers",
         "defaultValue": "false",
         "type": "boolean",
-        "description": "<p>if <code>true</code> expanding one item will close all others</p>\n"
-      },
-      {
-        "name": "isAnimated",
-        "defaultValue": "false",
-        "type": "boolean",
-        "description": "<p>turn on/off animation</p>\n"
+        "description": ""
       }
     ],
-    "outputs": [],
+    "outputs": [
+      {
+        "name": "isOpenChange",
+        "description": ""
+      }
+    ],
     "properties": [],
     "methods": []
   },
@@ -2969,7 +2968,7 @@ export const ngdoc: any = {
       },
       {
         "name": "id",
-        "type": "number",
+        "type": "string | number",
         "description": "<p>Allow user to ID for the modal. Otherwise, a unique number will be given</p>\n"
       },
       {
@@ -3070,7 +3069,7 @@ export const ngdoc: any = {
       },
       {
         "name": "id",
-        "type": "number",
+        "type": "string | number",
         "description": "<p>Allow user to ID for the modal. Otherwise, a unique number will be given</p>\n"
       },
       {
